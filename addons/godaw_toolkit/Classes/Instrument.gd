@@ -37,3 +37,7 @@ func create_sample(freq) -> AudioStreamSample:
 	# Set buffer
 	sample.data = data
 	return sample
+
+func play_note(note: Note):
+	# Code to play a note
+	pass
